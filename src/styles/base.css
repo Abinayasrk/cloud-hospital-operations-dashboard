@@ -1,0 +1,1 @@
+* { box-sizing: border-box; } body { margin: 0; font-family: Arial, system-ui, sans-serif; color: #17364B; background: #F4F8FA; } button,input,select { font: inherit; } :focus-visible {outline: 3px solid #21A3AE; outline-offset: 2px;}

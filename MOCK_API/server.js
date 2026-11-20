@@ -189,7 +189,7 @@ if (executedFile && currentFile === executedFile) {
         res.end();
       }
     }
-  }).listen(PORT, '127.0.0.1', () => {
+  }).listen(PORT, '0.0.0.0', () => {
     console.log(
       `Cloud Hospital API running at http://localhost:${PORT}`
     );

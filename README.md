@@ -1,211 +1,179 @@
-# Cloud Hospital Operations Dashboard
+# Cloud Hospital — Operations Dashboard
 
-A responsive React dashboard for monitoring hospital service revenue, transaction activity, payment status and regional performance.
+A responsive hospital operations dashboard built with React and Vite. It provides an overview of service revenue and transaction activity, with interactive search, filtering, sorting, and pagination.
 
-## 1. Technology Stack
+## Live Demo
 
+- **Frontend:** https://cloud-hospital-operations-dashboard.vercel.app
+- **Backend API:** https://cloud-hospital-operations-dashboard.onrender.com
+
+## Features
+
+- Responsive dashboard for desktop and mobile devices.
+- KPI cards showing settled revenue, total transactions, settled transactions, and pending transactions.
+- Transaction search by ID or service.
+- Filter transactions by status and region.
+- Sort transactions by date, amount, and supported fields.
+- Server-side pagination.
+- Clear filters functionality.
+- Loading, error, retry, and empty states.
+- INR currency formatting.
+- Mobile-friendly transaction cards.
+
+## Tech Stack
+
+**Frontend**
 - React
 - Vite
 - JavaScript
 - CSS Modules
+- Fetch API
+
+**Backend**
 - Node.js
-- REST API
-- Intl.NumberFormat for INR currency formatting
+- HTTP module
+- JSON-based mock data
 
-## 2. Requirements
+**Deployment**
+- Vercel — Frontend
+- Render — Backend API
+- GitHub — Source control
 
-- Node.js 18 or later
-- npm
-- Modern web browser
-
-## 3. Project Installation
-
-### Step 1: Start the API Server
-
-Open a terminal in the `MOCK_API` directory:
-
-```bash
-npm install
-npm start
-```
-
-The API server runs at:
-
-`http://localhost:8787`
-
-### Step 2: Install Frontend Dependencies
-
-Open another terminal in `FRONTEND_STARTER`:
-
-```bash
-npm install
-```
-
-### Step 3: Configure Environment Variables
-
-Create a `.env` file in the frontend root directory.
-
-```env
-VITE_API_BASE_URL=http://localhost:8787
-```
-
-The API host is configured through an environment variable rather than being hardcoded in application components.
-
-### Step 4: Start the Development Server
-
-```bash
-npm run dev
-```
-
-Open the local URL provided by Vite, normally:
-
-`http://localhost:5173`
-
-### Step 5: Production Build
-
-```bash
-npm run build
-```
-
-The production files are generated in the `dist` directory.
-
-## 4. Component Structure
+## Project Structure
 
 ```text
-FRONTEND_STARTER/
-│
+cloud-hospital-operations-dashboard/
+├── DATA/
+│   └── transactions.json
+├── MOCK_API/
+│   └── server.js
 ├── src/
 │   ├── components/
 │   │   ├── DashboardHeader.jsx
 │   │   ├── MetricGrid.jsx
 │   │   └── TransactionTable.jsx
-│   │
-│   ├── services/
-│   │   └── api.js
-│   │
 │   ├── styles/
 │   │   └── Dashboard.module.css
-│   │
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── .env
-├── .env.example
-├── index.html
+│   └── App.jsx
 ├── package.json
+├── index.html
 └── README.md
 ```
 
-## 5. Main Features
+## Getting Started
 
-- Dashboard KPI cards
-- Settled revenue and transaction metrics
-- Transaction search
-- Status and region filters
-- Sorting by transaction fields
-- Pagination
-- Clear filters functionality
-- Desktop, tablet and mobile responsive layouts
-- Mobile-friendly transaction cards
-- Loading and empty states
-- API error and retry handling
-- Accessible labels and controls
+### Prerequisites
 
-## 6. API Integration
+- Node.js 18 or later
+- npm
 
-Base URL:
+### 1. Clone the repository
 
-`http://localhost:8787`
+```bash
+git clone https://github.com/Abinayasrk/cloud-hospital-operations-dashboard.git
+cd cloud-hospital-operations-dashboard
+```
 
-### Available Endpoints
+### 2. Install dependencies
 
-| Endpoint | Method | Description |
-|---|---|---|
-| `/api/health` | GET | API health check |
-| `/api/metrics` | GET | Dashboard KPI metrics |
-| `/api/transactions` | GET | Transaction records |
+```bash
+npm install
+```
 
-### Transaction Query Parameters
+### 3. Configure the API URL
 
-- `search`
-- `status`
-- `region`
-- `page`
-- `limit`
-- `sort`
-- `direction`
+Create a `.env` file in the project root:
 
-### Error Handling
+```env
+VITE_API_BASE_URL=http://localhost:8787
+```
 
-The application handles API failures and provides a retry option.
+For production, configure `VITE_API_BASE_URL` in the frontend hosting environment with the deployed backend API base URL.
 
-Supported API responses include:
+### 4. Start the backend
 
-- 400 – Invalid request parameters
-- 404 – Unknown endpoint
-- 500 – Internal server error
+```bash
+node MOCK_API/server.js
+```
 
-## 7. KPI Metrics
+The local API runs on port `8787` by default.
 
-The dashboard displays:
+### 5. Start the frontend
 
-- Settled revenue
-- Total transactions
-- Settled transactions
-- Pending transactions
+Open another terminal:
 
-Revenue is calculated from settled transactions.
+```bash
+npm run dev
+```
 
-Currency values are formatted using the Indian Rupee locale.
+Open the local URL provided by Vite.
 
-## 8. Quality Assurance
-
-The following tests were performed during development:
-
-| Test Case | Result |
-|---|---|
-| Search functionality | PASS |
-| Status filtering | PASS |
-| Region filtering | PASS |
-| Sorting | PASS |
-| Pagination | PASS |
-| Clear filters | PASS |
-| Mobile responsive layout | PASS |
-| Hamburger navigation | PASS |
-| Loading state | PASS |
-| Empty state | PASS |
-| HTTP 400 handling | PASS |
-| HTTP 404 handling | PASS |
-| HTTP 500 handling | PASS |
-| Production build | PASS |
-
-Browser testing: Chrome.
-
-Mobile layout was checked using responsive device emulation.
-
-## 9. Data Privacy
-
-This dashboard uses transaction data for operational analytics.
-
-No patient personal information or medical records are included in this workflow.
-
-## 10. Deployment
-
-The production build is generated using:
+### 6. Build for production
 
 ```bash
 npm run build
 ```
 
-The `dist` directory can be deployed to a supported static hosting provider such as Vercel or Netlify.
+The production build is generated in the `dist` directory.
 
-Live Preview URL: To be added after deployment.
+## API Endpoints
 
-GitHub Repository URL: To be added after repository creation.
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/health` | API health check |
+| GET | `/api/metrics` | Dashboard KPI metrics |
+| GET | `/api/transactions` | Transaction list with filtering, sorting, search, and pagination |
 
-## 11. Limitations
+### Transaction Query Parameters
 
-- The dashboard uses the provided mock API.
-- The API server must be available for live transaction data.
-- Production API configuration must be updated before deployment.
-- GitHub repository and live preview URLs will be added after deployment.
+| Parameter | Description |
+|---|---|
+| `search` | Search by transaction ID, service, region, or channel |
+| `status` | Filter by Settled, Pending, Refunded, or Failed |
+| `region` | Filter by North, South, East, or West |
+| `sort` | Sort field |
+| `direction` | `asc` or `desc` |
+| `page` | Page number |
+| `limit` | Number of records per page |
+
+Example:
+
+```text
+/api/transactions?page=1&limit=10&sort=date&direction=desc
+```
+
+## Error Handling
+
+The API handles invalid requests and returns appropriate HTTP status codes:
+
+- `400` — Invalid request parameters.
+- `404` — Unknown API endpoint.
+- `405` — Unsupported HTTP method.
+- `500` — Internal server error.
+
+The frontend displays an error message and retry option when API requests fail.
+
+## Responsive Design
+
+The dashboard supports:
+
+- Mobile: 390px
+- Tablet: 768px
+- Desktop: 1440px
+
+The mobile layout uses stacked KPI cards and transaction cards to avoid horizontal page overflow.
+
+## Testing
+
+The following functionality has been manually checked:
+
+- Dashboard data loading.
+- Search functionality.
+- Status and region filters.
+- Sorting.
+- Pagination.
+- Clear filters.
+
+## Notes
+
+This project uses mock transaction data for demonstration purposes. It does not display patient medical records or personal health information.

@@ -1,0 +1,1442 @@
+[
+  {
+    "transaction_id": "CHT-00001",
+    "date": "2026-10-06",
+    "service": "Wellness Package",
+    "region": "West",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00002",
+    "date": "2026-10-11",
+    "service": "Lab Package",
+    "region": "East",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00003",
+    "date": "2026-10-16",
+    "service": "Care Plan",
+    "region": "South",
+    "channel": "Front Desk",
+    "status": "Failed",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00004",
+    "date": "2026-10-21",
+    "service": "Teleconsultation",
+    "region": "North",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00005",
+    "date": "2026-10-26",
+    "service": "Health Screening",
+    "region": "West",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00006",
+    "date": "2026-10-31",
+    "service": "Wellness Package",
+    "region": "East",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 3499
+  },
+  {
+    "transaction_id": "CHT-00007",
+    "date": "2026-11-05",
+    "service": "Lab Package",
+    "region": "South",
+    "channel": "Front Desk",
+    "status": "Failed",
+    "amount_inr": 1399
+  },
+  {
+    "transaction_id": "CHT-00008",
+    "date": "2026-11-10",
+    "service": "Care Plan",
+    "region": "South",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 2699
+  },
+  {
+    "transaction_id": "CHT-00009",
+    "date": "2026-11-15",
+    "service": "Lab Package",
+    "region": "North",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00010",
+    "date": "2026-10-03",
+    "service": "Care Plan",
+    "region": "West",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00011",
+    "date": "2026-10-08",
+    "service": "Teleconsultation",
+    "region": "East",
+    "channel": "Front Desk",
+    "status": "Settled",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00012",
+    "date": "2026-10-13",
+    "service": "Health Screening",
+    "region": "South",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00013",
+    "date": "2026-10-18",
+    "service": "Wellness Package",
+    "region": "North",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00014",
+    "date": "2026-10-23",
+    "service": "Lab Package",
+    "region": "West",
+    "channel": "Referral",
+    "status": "Failed",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00015",
+    "date": "2026-10-28",
+    "service": "Care Plan",
+    "region": "East",
+    "channel": "Partner",
+    "status": "Settled",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00016",
+    "date": "2026-11-02",
+    "service": "Teleconsultation",
+    "region": "East",
+    "channel": "Front Desk",
+    "status": "Pending",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00017",
+    "date": "2026-11-07",
+    "service": "Health Screening",
+    "region": "South",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00018",
+    "date": "2026-11-12",
+    "service": "Teleconsultation",
+    "region": "North",
+    "channel": "Referral",
+    "status": "Failed",
+    "amount_inr": 799
+  },
+  {
+    "transaction_id": "CHT-00019",
+    "date": "2026-11-17",
+    "service": "Health Screening",
+    "region": "West",
+    "channel": "Partner",
+    "status": "Settled",
+    "amount_inr": 1599
+  },
+  {
+    "transaction_id": "CHT-00020",
+    "date": "2026-10-05",
+    "service": "Wellness Package",
+    "region": "East",
+    "channel": "Front Desk",
+    "status": "Pending",
+    "amount_inr": 3699
+  },
+  {
+    "transaction_id": "CHT-00021",
+    "date": "2026-10-10",
+    "service": "Lab Package",
+    "region": "South",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00022",
+    "date": "2026-10-15",
+    "service": "Care Plan",
+    "region": "North",
+    "channel": "Referral",
+    "status": "Settled",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00023",
+    "date": "2026-10-20",
+    "service": "Teleconsultation",
+    "region": "West",
+    "channel": "Partner",
+    "status": "Pending",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00024",
+    "date": "2026-10-25",
+    "service": "Health Screening",
+    "region": "West",
+    "channel": "Front Desk",
+    "status": "Refunded",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00025",
+    "date": "2026-10-30",
+    "service": "Wellness Package",
+    "region": "East",
+    "channel": "Website",
+    "status": "Failed",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00026",
+    "date": "2026-11-04",
+    "service": "Lab Package",
+    "region": "South",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00027",
+    "date": "2026-11-09",
+    "service": "Wellness Package",
+    "region": "North",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 3499
+  },
+  {
+    "transaction_id": "CHT-00028",
+    "date": "2026-11-14",
+    "service": "Lab Package",
+    "region": "West",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 1399
+  },
+  {
+    "transaction_id": "CHT-00029",
+    "date": "2026-10-02",
+    "service": "Care Plan",
+    "region": "East",
+    "channel": "Front Desk",
+    "status": "Failed",
+    "amount_inr": 2699
+  },
+  {
+    "transaction_id": "CHT-00030",
+    "date": "2026-10-07",
+    "service": "Teleconsultation",
+    "region": "South",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 799
+  },
+  {
+    "transaction_id": "CHT-00031",
+    "date": "2026-10-12",
+    "service": "Health Screening",
+    "region": "North",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 1599
+  },
+  {
+    "transaction_id": "CHT-00032",
+    "date": "2026-10-17",
+    "service": "Wellness Package",
+    "region": "North",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 3699
+  },
+  {
+    "transaction_id": "CHT-00033",
+    "date": "2026-10-22",
+    "service": "Lab Package",
+    "region": "West",
+    "channel": "Front Desk",
+    "status": "Settled",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00034",
+    "date": "2026-10-27",
+    "service": "Care Plan",
+    "region": "East",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00035",
+    "date": "2026-11-01",
+    "service": "Teleconsultation",
+    "region": "South",
+    "channel": "Referral",
+    "status": "Refunded",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00036",
+    "date": "2026-11-06",
+    "service": "Care Plan",
+    "region": "North",
+    "channel": "Partner",
+    "status": "Failed",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00037",
+    "date": "2026-11-11",
+    "service": "Teleconsultation",
+    "region": "West",
+    "channel": "Front Desk",
+    "status": "Settled",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00038",
+    "date": "2026-11-16",
+    "service": "Health Screening",
+    "region": "East",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00039",
+    "date": "2026-10-04",
+    "service": "Wellness Package",
+    "region": "South",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 3499
+  },
+  {
+    "transaction_id": "CHT-00040",
+    "date": "2026-10-09",
+    "service": "Lab Package",
+    "region": "South",
+    "channel": "Referral",
+    "status": "Failed",
+    "amount_inr": 1399
+  },
+  {
+    "transaction_id": "CHT-00041",
+    "date": "2026-10-14",
+    "service": "Care Plan",
+    "region": "North",
+    "channel": "Partner",
+    "status": "Settled",
+    "amount_inr": 2699
+  },
+  {
+    "transaction_id": "CHT-00042",
+    "date": "2026-10-19",
+    "service": "Teleconsultation",
+    "region": "West",
+    "channel": "Front Desk",
+    "status": "Pending",
+    "amount_inr": 799
+  },
+  {
+    "transaction_id": "CHT-00043",
+    "date": "2026-10-24",
+    "service": "Health Screening",
+    "region": "East",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 1599
+  },
+  {
+    "transaction_id": "CHT-00044",
+    "date": "2026-10-29",
+    "service": "Wellness Package",
+    "region": "South",
+    "channel": "Referral",
+    "status": "Settled",
+    "amount_inr": 3699
+  },
+  {
+    "transaction_id": "CHT-00045",
+    "date": "2026-11-03",
+    "service": "Health Screening",
+    "region": "North",
+    "channel": "Partner",
+    "status": "Pending",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00046",
+    "date": "2026-11-08",
+    "service": "Wellness Package",
+    "region": "West",
+    "channel": "Front Desk",
+    "status": "Refunded",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00047",
+    "date": "2026-11-13",
+    "service": "Lab Package",
+    "region": "East",
+    "channel": "Website",
+    "status": "Failed",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00048",
+    "date": "2026-10-01",
+    "service": "Care Plan",
+    "region": "East",
+    "channel": "Referral",
+    "status": "Settled",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00049",
+    "date": "2026-10-06",
+    "service": "Teleconsultation",
+    "region": "South",
+    "channel": "Partner",
+    "status": "Pending",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00050",
+    "date": "2026-10-11",
+    "service": "Health Screening",
+    "region": "North",
+    "channel": "Front Desk",
+    "status": "Refunded",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00051",
+    "date": "2026-10-16",
+    "service": "Wellness Package",
+    "region": "West",
+    "channel": "Website",
+    "status": "Failed",
+    "amount_inr": 3499
+  },
+  {
+    "transaction_id": "CHT-00052",
+    "date": "2026-10-21",
+    "service": "Lab Package",
+    "region": "East",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 1399
+  },
+  {
+    "transaction_id": "CHT-00053",
+    "date": "2026-10-26",
+    "service": "Care Plan",
+    "region": "South",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 2699
+  },
+  {
+    "transaction_id": "CHT-00054",
+    "date": "2026-10-31",
+    "service": "Lab Package",
+    "region": "North",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00055",
+    "date": "2026-11-05",
+    "service": "Care Plan",
+    "region": "West",
+    "channel": "Front Desk",
+    "status": "Settled",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00056",
+    "date": "2026-11-10",
+    "service": "Teleconsultation",
+    "region": "West",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00057",
+    "date": "2026-11-15",
+    "service": "Health Screening",
+    "region": "East",
+    "channel": "Referral",
+    "status": "Refunded",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00058",
+    "date": "2026-10-03",
+    "service": "Wellness Package",
+    "region": "South",
+    "channel": "Partner",
+    "status": "Failed",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00059",
+    "date": "2026-10-08",
+    "service": "Lab Package",
+    "region": "North",
+    "channel": "Front Desk",
+    "status": "Settled",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00060",
+    "date": "2026-10-13",
+    "service": "Care Plan",
+    "region": "West",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00061",
+    "date": "2026-10-18",
+    "service": "Teleconsultation",
+    "region": "East",
+    "channel": "Referral",
+    "status": "Refunded",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00062",
+    "date": "2026-10-23",
+    "service": "Health Screening",
+    "region": "South",
+    "channel": "Partner",
+    "status": "Failed",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00063",
+    "date": "2026-10-28",
+    "service": "Teleconsultation",
+    "region": "North",
+    "channel": "Front Desk",
+    "status": "Settled",
+    "amount_inr": 799
+  },
+  {
+    "transaction_id": "CHT-00064",
+    "date": "2026-11-02",
+    "service": "Health Screening",
+    "region": "North",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 1599
+  },
+  {
+    "transaction_id": "CHT-00065",
+    "date": "2026-11-07",
+    "service": "Wellness Package",
+    "region": "West",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 3699
+  },
+  {
+    "transaction_id": "CHT-00066",
+    "date": "2026-11-12",
+    "service": "Lab Package",
+    "region": "East",
+    "channel": "Referral",
+    "status": "Settled",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00067",
+    "date": "2026-11-17",
+    "service": "Care Plan",
+    "region": "South",
+    "channel": "Partner",
+    "status": "Pending",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00068",
+    "date": "2026-10-05",
+    "service": "Teleconsultation",
+    "region": "North",
+    "channel": "Front Desk",
+    "status": "Refunded",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00069",
+    "date": "2026-10-10",
+    "service": "Health Screening",
+    "region": "West",
+    "channel": "Website",
+    "status": "Failed",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00070",
+    "date": "2026-10-15",
+    "service": "Wellness Package",
+    "region": "East",
+    "channel": "Referral",
+    "status": "Settled",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00071",
+    "date": "2026-10-20",
+    "service": "Lab Package",
+    "region": "South",
+    "channel": "Partner",
+    "status": "Pending",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00072",
+    "date": "2026-10-25",
+    "service": "Wellness Package",
+    "region": "South",
+    "channel": "Front Desk",
+    "status": "Refunded",
+    "amount_inr": 3499
+  },
+  {
+    "transaction_id": "CHT-00073",
+    "date": "2026-10-30",
+    "service": "Lab Package",
+    "region": "North",
+    "channel": "Website",
+    "status": "Failed",
+    "amount_inr": 1399
+  },
+  {
+    "transaction_id": "CHT-00074",
+    "date": "2026-11-04",
+    "service": "Care Plan",
+    "region": "West",
+    "channel": "Referral",
+    "status": "Settled",
+    "amount_inr": 2699
+  },
+  {
+    "transaction_id": "CHT-00075",
+    "date": "2026-11-09",
+    "service": "Teleconsultation",
+    "region": "East",
+    "channel": "Partner",
+    "status": "Pending",
+    "amount_inr": 799
+  },
+  {
+    "transaction_id": "CHT-00076",
+    "date": "2026-11-14",
+    "service": "Health Screening",
+    "region": "South",
+    "channel": "Front Desk",
+    "status": "Refunded",
+    "amount_inr": 1599
+  },
+  {
+    "transaction_id": "CHT-00077",
+    "date": "2026-10-02",
+    "service": "Wellness Package",
+    "region": "North",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 3699
+  },
+  {
+    "transaction_id": "CHT-00078",
+    "date": "2026-10-07",
+    "service": "Lab Package",
+    "region": "West",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00079",
+    "date": "2026-10-12",
+    "service": "Care Plan",
+    "region": "East",
+    "channel": "Referral",
+    "status": "Refunded",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00080",
+    "date": "2026-10-17",
+    "service": "Teleconsultation",
+    "region": "East",
+    "channel": "Partner",
+    "status": "Failed",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00081",
+    "date": "2026-10-22",
+    "service": "Care Plan",
+    "region": "South",
+    "channel": "Front Desk",
+    "status": "Settled",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00082",
+    "date": "2026-10-27",
+    "service": "Teleconsultation",
+    "region": "North",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00083",
+    "date": "2026-11-01",
+    "service": "Health Screening",
+    "region": "West",
+    "channel": "Referral",
+    "status": "Refunded",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00084",
+    "date": "2026-11-06",
+    "service": "Wellness Package",
+    "region": "East",
+    "channel": "Partner",
+    "status": "Failed",
+    "amount_inr": 3499
+  },
+  {
+    "transaction_id": "CHT-00085",
+    "date": "2026-11-11",
+    "service": "Lab Package",
+    "region": "South",
+    "channel": "Front Desk",
+    "status": "Settled",
+    "amount_inr": 1399
+  },
+  {
+    "transaction_id": "CHT-00086",
+    "date": "2026-11-16",
+    "service": "Care Plan",
+    "region": "North",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 2699
+  },
+  {
+    "transaction_id": "CHT-00087",
+    "date": "2026-10-04",
+    "service": "Teleconsultation",
+    "region": "West",
+    "channel": "Referral",
+    "status": "Refunded",
+    "amount_inr": 799
+  },
+  {
+    "transaction_id": "CHT-00088",
+    "date": "2026-10-09",
+    "service": "Health Screening",
+    "region": "West",
+    "channel": "Partner",
+    "status": "Settled",
+    "amount_inr": 1599
+  },
+  {
+    "transaction_id": "CHT-00089",
+    "date": "2026-10-14",
+    "service": "Wellness Package",
+    "region": "East",
+    "channel": "Front Desk",
+    "status": "Pending",
+    "amount_inr": 3699
+  },
+  {
+    "transaction_id": "CHT-00090",
+    "date": "2026-10-19",
+    "service": "Health Screening",
+    "region": "South",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00091",
+    "date": "2026-10-24",
+    "service": "Wellness Package",
+    "region": "North",
+    "channel": "Website",
+    "status": "Failed",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00092",
+    "date": "2026-10-29",
+    "service": "Lab Package",
+    "region": "West",
+    "channel": "Referral",
+    "status": "Settled",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00093",
+    "date": "2026-11-03",
+    "service": "Care Plan",
+    "region": "East",
+    "channel": "Partner",
+    "status": "Pending",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00094",
+    "date": "2026-11-08",
+    "service": "Teleconsultation",
+    "region": "South",
+    "channel": "Front Desk",
+    "status": "Refunded",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00095",
+    "date": "2026-11-13",
+    "service": "Health Screening",
+    "region": "North",
+    "channel": "Website",
+    "status": "Failed",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00096",
+    "date": "2026-10-01",
+    "service": "Wellness Package",
+    "region": "North",
+    "channel": "Referral",
+    "status": "Settled",
+    "amount_inr": 3499
+  },
+  {
+    "transaction_id": "CHT-00097",
+    "date": "2026-10-06",
+    "service": "Lab Package",
+    "region": "West",
+    "channel": "Partner",
+    "status": "Pending",
+    "amount_inr": 1399
+  },
+  {
+    "transaction_id": "CHT-00098",
+    "date": "2026-10-11",
+    "service": "Care Plan",
+    "region": "East",
+    "channel": "Front Desk",
+    "status": "Refunded",
+    "amount_inr": 2699
+  },
+  {
+    "transaction_id": "CHT-00099",
+    "date": "2026-10-16",
+    "service": "Lab Package",
+    "region": "South",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00100",
+    "date": "2026-10-21",
+    "service": "Care Plan",
+    "region": "North",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00101",
+    "date": "2026-10-26",
+    "service": "Teleconsultation",
+    "region": "West",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00102",
+    "date": "2026-10-31",
+    "service": "Health Screening",
+    "region": "East",
+    "channel": "Front Desk",
+    "status": "Failed",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00103",
+    "date": "2026-11-05",
+    "service": "Wellness Package",
+    "region": "South",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00104",
+    "date": "2026-11-10",
+    "service": "Lab Package",
+    "region": "South",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00105",
+    "date": "2026-11-15",
+    "service": "Care Plan",
+    "region": "North",
+    "channel": "Referral",
+    "status": "Refunded",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00106",
+    "date": "2026-10-03",
+    "service": "Teleconsultation",
+    "region": "West",
+    "channel": "Partner",
+    "status": "Failed",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00107",
+    "date": "2026-10-08",
+    "service": "Health Screening",
+    "region": "East",
+    "channel": "Front Desk",
+    "status": "Settled",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00108",
+    "date": "2026-10-13",
+    "service": "Teleconsultation",
+    "region": "South",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 799
+  },
+  {
+    "transaction_id": "CHT-00109",
+    "date": "2026-10-18",
+    "service": "Health Screening",
+    "region": "North",
+    "channel": "Referral",
+    "status": "Refunded",
+    "amount_inr": 1599
+  },
+  {
+    "transaction_id": "CHT-00110",
+    "date": "2026-10-23",
+    "service": "Wellness Package",
+    "region": "West",
+    "channel": "Partner",
+    "status": "Settled",
+    "amount_inr": 3699
+  },
+  {
+    "transaction_id": "CHT-00111",
+    "date": "2026-10-28",
+    "service": "Lab Package",
+    "region": "East",
+    "channel": "Front Desk",
+    "status": "Pending",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00112",
+    "date": "2026-11-02",
+    "service": "Care Plan",
+    "region": "East",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00113",
+    "date": "2026-11-07",
+    "service": "Teleconsultation",
+    "region": "South",
+    "channel": "Referral",
+    "status": "Failed",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00114",
+    "date": "2026-11-12",
+    "service": "Health Screening",
+    "region": "North",
+    "channel": "Partner",
+    "status": "Settled",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00115",
+    "date": "2026-11-17",
+    "service": "Wellness Package",
+    "region": "West",
+    "channel": "Front Desk",
+    "status": "Pending",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00116",
+    "date": "2026-10-05",
+    "service": "Lab Package",
+    "region": "East",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00117",
+    "date": "2026-10-10",
+    "service": "Wellness Package",
+    "region": "South",
+    "channel": "Website",
+    "status": "Failed",
+    "amount_inr": 3499
+  },
+  {
+    "transaction_id": "CHT-00118",
+    "date": "2026-10-15",
+    "service": "Lab Package",
+    "region": "North",
+    "channel": "Referral",
+    "status": "Settled",
+    "amount_inr": 1399
+  },
+  {
+    "transaction_id": "CHT-00119",
+    "date": "2026-10-20",
+    "service": "Care Plan",
+    "region": "West",
+    "channel": "Partner",
+    "status": "Pending",
+    "amount_inr": 2699
+  },
+  {
+    "transaction_id": "CHT-00120",
+    "date": "2026-10-25",
+    "service": "Teleconsultation",
+    "region": "West",
+    "channel": "Front Desk",
+    "status": "Refunded",
+    "amount_inr": 799
+  },
+  {
+    "transaction_id": "CHT-00121",
+    "date": "2026-10-30",
+    "service": "Health Screening",
+    "region": "East",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 1599
+  },
+  {
+    "transaction_id": "CHT-00122",
+    "date": "2026-11-04",
+    "service": "Wellness Package",
+    "region": "South",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 3699
+  },
+  {
+    "transaction_id": "CHT-00123",
+    "date": "2026-11-09",
+    "service": "Lab Package",
+    "region": "North",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00124",
+    "date": "2026-11-14",
+    "service": "Care Plan",
+    "region": "West",
+    "channel": "Front Desk",
+    "status": "Failed",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00125",
+    "date": "2026-10-02",
+    "service": "Teleconsultation",
+    "region": "East",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00126",
+    "date": "2026-10-07",
+    "service": "Care Plan",
+    "region": "South",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00127",
+    "date": "2026-10-12",
+    "service": "Teleconsultation",
+    "region": "North",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00128",
+    "date": "2026-10-17",
+    "service": "Health Screening",
+    "region": "North",
+    "channel": "Front Desk",
+    "status": "Failed",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00129",
+    "date": "2026-10-22",
+    "service": "Wellness Package",
+    "region": "West",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 3499
+  },
+  {
+    "transaction_id": "CHT-00130",
+    "date": "2026-10-27",
+    "service": "Lab Package",
+    "region": "East",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 1399
+  },
+  {
+    "transaction_id": "CHT-00131",
+    "date": "2026-11-01",
+    "service": "Care Plan",
+    "region": "South",
+    "channel": "Referral",
+    "status": "Refunded",
+    "amount_inr": 2699
+  },
+  {
+    "transaction_id": "CHT-00132",
+    "date": "2026-11-06",
+    "service": "Teleconsultation",
+    "region": "North",
+    "channel": "Partner",
+    "status": "Settled",
+    "amount_inr": 799
+  },
+  {
+    "transaction_id": "CHT-00133",
+    "date": "2026-11-11",
+    "service": "Health Screening",
+    "region": "West",
+    "channel": "Front Desk",
+    "status": "Pending",
+    "amount_inr": 1599
+  },
+  {
+    "transaction_id": "CHT-00134",
+    "date": "2026-11-16",
+    "service": "Wellness Package",
+    "region": "East",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 3699
+  },
+  {
+    "transaction_id": "CHT-00135",
+    "date": "2026-10-04",
+    "service": "Health Screening",
+    "region": "South",
+    "channel": "Referral",
+    "status": "Failed",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00136",
+    "date": "2026-10-09",
+    "service": "Wellness Package",
+    "region": "South",
+    "channel": "Partner",
+    "status": "Settled",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00137",
+    "date": "2026-10-14",
+    "service": "Lab Package",
+    "region": "North",
+    "channel": "Front Desk",
+    "status": "Pending",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00138",
+    "date": "2026-10-19",
+    "service": "Care Plan",
+    "region": "West",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00139",
+    "date": "2026-10-24",
+    "service": "Teleconsultation",
+    "region": "East",
+    "channel": "Referral",
+    "status": "Failed",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00140",
+    "date": "2026-10-29",
+    "service": "Health Screening",
+    "region": "South",
+    "channel": "Partner",
+    "status": "Settled",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00141",
+    "date": "2026-11-03",
+    "service": "Wellness Package",
+    "region": "North",
+    "channel": "Front Desk",
+    "status": "Pending",
+    "amount_inr": 3499
+  },
+  {
+    "transaction_id": "CHT-00142",
+    "date": "2026-11-08",
+    "service": "Lab Package",
+    "region": "West",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 1399
+  },
+  {
+    "transaction_id": "CHT-00143",
+    "date": "2026-11-13",
+    "service": "Care Plan",
+    "region": "East",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 2699
+  },
+  {
+    "transaction_id": "CHT-00144",
+    "date": "2026-10-01",
+    "service": "Lab Package",
+    "region": "East",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00145",
+    "date": "2026-10-06",
+    "service": "Care Plan",
+    "region": "South",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00146",
+    "date": "2026-10-11",
+    "service": "Teleconsultation",
+    "region": "North",
+    "channel": "Front Desk",
+    "status": "Failed",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00147",
+    "date": "2026-10-16",
+    "service": "Health Screening",
+    "region": "West",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00148",
+    "date": "2026-10-21",
+    "service": "Wellness Package",
+    "region": "East",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 3599
+  },
+  {
+    "transaction_id": "CHT-00149",
+    "date": "2026-10-26",
+    "service": "Lab Package",
+    "region": "South",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00150",
+    "date": "2026-10-31",
+    "service": "Care Plan",
+    "region": "North",
+    "channel": "Front Desk",
+    "status": "Failed",
+    "amount_inr": 2499
+  },
+  {
+    "transaction_id": "CHT-00151",
+    "date": "2026-11-05",
+    "service": "Teleconsultation",
+    "region": "West",
+    "channel": "Website",
+    "status": "Settled",
+    "amount_inr": 899
+  },
+  {
+    "transaction_id": "CHT-00152",
+    "date": "2026-11-10",
+    "service": "Health Screening",
+    "region": "West",
+    "channel": "Referral",
+    "status": "Pending",
+    "amount_inr": 1699
+  },
+  {
+    "transaction_id": "CHT-00153",
+    "date": "2026-11-15",
+    "service": "Teleconsultation",
+    "region": "East",
+    "channel": "Partner",
+    "status": "Refunded",
+    "amount_inr": 799
+  },
+  {
+    "transaction_id": "CHT-00154",
+    "date": "2026-10-03",
+    "service": "Health Screening",
+    "region": "South",
+    "channel": "Front Desk",
+    "status": "Settled",
+    "amount_inr": 1599
+  },
+  {
+    "transaction_id": "CHT-00155",
+    "date": "2026-10-08",
+    "service": "Wellness Package",
+    "region": "North",
+    "channel": "Website",
+    "status": "Pending",
+    "amount_inr": 3699
+  },
+  {
+    "transaction_id": "CHT-00156",
+    "date": "2026-10-13",
+    "service": "Lab Package",
+    "region": "West",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 1299
+  },
+  {
+    "transaction_id": "CHT-00157",
+    "date": "2026-10-18",
+    "service": "Care Plan",
+    "region": "East",
+    "channel": "Referral",
+    "status": "Failed",
+    "amount_inr": 2599
+  },
+  {
+    "transaction_id": "CHT-00158",
+    "date": "2026-10-23",
+    "service": "Teleconsultation",
+    "region": "South",
+    "channel": "Partner",
+    "status": "Settled",
+    "amount_inr": 999
+  },
+  {
+    "transaction_id": "CHT-00159",
+    "date": "2026-10-28",
+    "service": "Health Screening",
+    "region": "North",
+    "channel": "Front Desk",
+    "status": "Pending",
+    "amount_inr": 1499
+  },
+  {
+    "transaction_id": "CHT-00160",
+    "date": "2026-11-02",
+    "service": "Wellness Package",
+    "region": "North",
+    "channel": "Website",
+    "status": "Refunded",
+    "amount_inr": 3599
+  }
+]

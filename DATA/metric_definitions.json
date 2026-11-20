@@ -1,0 +1,48 @@
+{
+  "currency": "INR",
+  "record_count": 160,
+  "kpis": [
+    {
+      "id": "totalRevenue",
+      "label": "Settled revenue",
+      "rule": "Sum amount_inr where status = Settled"
+    },
+    {
+      "id": "transactions",
+      "label": "All transactions",
+      "rule": "Count all records including failed"
+    },
+    {
+      "id": "settled",
+      "label": "Settled transactions",
+      "rule": "Count records with status = Settled"
+    },
+    {
+      "id": "pending",
+      "label": "Pending transactions",
+      "rule": "Count records with status = Pending"
+    }
+  ],
+  "filters": {
+    "status": [
+      "Settled",
+      "Pending",
+      "Refunded",
+      "Failed"
+    ],
+    "region": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ]
+  },
+  "sort_columns": [
+    "transaction_id",
+    "date",
+    "service",
+    "region",
+    "amount_inr",
+    "status"
+  ]
+}

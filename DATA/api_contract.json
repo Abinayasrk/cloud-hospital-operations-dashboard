@@ -1,0 +1,47 @@
+{
+  "baseUrl": "http://localhost:8787",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/api/transactions",
+      "query": {
+        "search": "case-insensitive contains match on ID, service, channel or region",
+        "status": "one status",
+        "region": "one region",
+        "sort": "one permitted field",
+        "direction": "asc or desc",
+        "page": "1-based integer",
+        "limit": "integer 1..100"
+      },
+      "response": {
+        "items": "array of transactions",
+        "total": "number after filtering",
+        "page": "integer",
+        "limit": "integer"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/metrics",
+      "response": {
+        "totalRevenue": "INR number",
+        "transactions": "integer",
+        "settled": "integer",
+        "pending": "integer"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "response": {
+        "ok": true
+      }
+    }
+  ],
+  "errors": {
+    "400": "invalid query",
+    "404": "unknown route",
+    "405": "method not allowed",
+    "500": "internal server error"
+  }
+}

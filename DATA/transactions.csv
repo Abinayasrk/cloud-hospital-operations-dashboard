@@ -1,0 +1,161 @@
+transaction_id,date,service,region,channel,status,amount_inr
+CHT-00001,2026-10-06,Wellness Package,West,Referral,Pending,3599
+CHT-00002,2026-10-11,Lab Package,East,Partner,Refunded,1499
+CHT-00003,2026-10-16,Care Plan,South,Front Desk,Failed,2499
+CHT-00004,2026-10-21,Teleconsultation,North,Website,Settled,899
+CHT-00005,2026-10-26,Health Screening,West,Referral,Pending,1699
+CHT-00006,2026-10-31,Wellness Package,East,Partner,Refunded,3499
+CHT-00007,2026-11-05,Lab Package,South,Front Desk,Failed,1399
+CHT-00008,2026-11-10,Care Plan,South,Website,Settled,2699
+CHT-00009,2026-11-15,Lab Package,North,Referral,Pending,1299
+CHT-00010,2026-10-03,Care Plan,West,Partner,Refunded,2599
+CHT-00011,2026-10-08,Teleconsultation,East,Front Desk,Settled,999
+CHT-00012,2026-10-13,Health Screening,South,Website,Pending,1499
+CHT-00013,2026-10-18,Wellness Package,North,Website,Refunded,3599
+CHT-00014,2026-10-23,Lab Package,West,Referral,Failed,1499
+CHT-00015,2026-10-28,Care Plan,East,Partner,Settled,2499
+CHT-00016,2026-11-02,Teleconsultation,East,Front Desk,Pending,899
+CHT-00017,2026-11-07,Health Screening,South,Website,Refunded,1699
+CHT-00018,2026-11-12,Teleconsultation,North,Referral,Failed,799
+CHT-00019,2026-11-17,Health Screening,West,Partner,Settled,1599
+CHT-00020,2026-10-05,Wellness Package,East,Front Desk,Pending,3699
+CHT-00021,2026-10-10,Lab Package,South,Website,Refunded,1299
+CHT-00022,2026-10-15,Care Plan,North,Referral,Settled,2599
+CHT-00023,2026-10-20,Teleconsultation,West,Partner,Pending,999
+CHT-00024,2026-10-25,Health Screening,West,Front Desk,Refunded,1499
+CHT-00025,2026-10-30,Wellness Package,East,Website,Failed,3599
+CHT-00026,2026-11-04,Lab Package,South,Website,Settled,1499
+CHT-00027,2026-11-09,Wellness Package,North,Referral,Pending,3499
+CHT-00028,2026-11-14,Lab Package,West,Partner,Refunded,1399
+CHT-00029,2026-10-02,Care Plan,East,Front Desk,Failed,2699
+CHT-00030,2026-10-07,Teleconsultation,South,Website,Settled,799
+CHT-00031,2026-10-12,Health Screening,North,Referral,Pending,1599
+CHT-00032,2026-10-17,Wellness Package,North,Partner,Refunded,3699
+CHT-00033,2026-10-22,Lab Package,West,Front Desk,Settled,1299
+CHT-00034,2026-10-27,Care Plan,East,Website,Pending,2599
+CHT-00035,2026-11-01,Teleconsultation,South,Referral,Refunded,999
+CHT-00036,2026-11-06,Care Plan,North,Partner,Failed,2499
+CHT-00037,2026-11-11,Teleconsultation,West,Front Desk,Settled,899
+CHT-00038,2026-11-16,Health Screening,East,Website,Pending,1699
+CHT-00039,2026-10-04,Wellness Package,South,Website,Refunded,3499
+CHT-00040,2026-10-09,Lab Package,South,Referral,Failed,1399
+CHT-00041,2026-10-14,Care Plan,North,Partner,Settled,2699
+CHT-00042,2026-10-19,Teleconsultation,West,Front Desk,Pending,799
+CHT-00043,2026-10-24,Health Screening,East,Website,Refunded,1599
+CHT-00044,2026-10-29,Wellness Package,South,Referral,Settled,3699
+CHT-00045,2026-11-03,Health Screening,North,Partner,Pending,1499
+CHT-00046,2026-11-08,Wellness Package,West,Front Desk,Refunded,3599
+CHT-00047,2026-11-13,Lab Package,East,Website,Failed,1499
+CHT-00048,2026-10-01,Care Plan,East,Referral,Settled,2499
+CHT-00049,2026-10-06,Teleconsultation,South,Partner,Pending,899
+CHT-00050,2026-10-11,Health Screening,North,Front Desk,Refunded,1699
+CHT-00051,2026-10-16,Wellness Package,West,Website,Failed,3499
+CHT-00052,2026-10-21,Lab Package,East,Website,Settled,1399
+CHT-00053,2026-10-26,Care Plan,South,Referral,Pending,2699
+CHT-00054,2026-10-31,Lab Package,North,Partner,Refunded,1299
+CHT-00055,2026-11-05,Care Plan,West,Front Desk,Settled,2599
+CHT-00056,2026-11-10,Teleconsultation,West,Website,Pending,999
+CHT-00057,2026-11-15,Health Screening,East,Referral,Refunded,1499
+CHT-00058,2026-10-03,Wellness Package,South,Partner,Failed,3599
+CHT-00059,2026-10-08,Lab Package,North,Front Desk,Settled,1499
+CHT-00060,2026-10-13,Care Plan,West,Website,Pending,2499
+CHT-00061,2026-10-18,Teleconsultation,East,Referral,Refunded,899
+CHT-00062,2026-10-23,Health Screening,South,Partner,Failed,1699
+CHT-00063,2026-10-28,Teleconsultation,North,Front Desk,Settled,799
+CHT-00064,2026-11-02,Health Screening,North,Website,Pending,1599
+CHT-00065,2026-11-07,Wellness Package,West,Website,Refunded,3699
+CHT-00066,2026-11-12,Lab Package,East,Referral,Settled,1299
+CHT-00067,2026-11-17,Care Plan,South,Partner,Pending,2599
+CHT-00068,2026-10-05,Teleconsultation,North,Front Desk,Refunded,999
+CHT-00069,2026-10-10,Health Screening,West,Website,Failed,1499
+CHT-00070,2026-10-15,Wellness Package,East,Referral,Settled,3599
+CHT-00071,2026-10-20,Lab Package,South,Partner,Pending,1499
+CHT-00072,2026-10-25,Wellness Package,South,Front Desk,Refunded,3499
+CHT-00073,2026-10-30,Lab Package,North,Website,Failed,1399
+CHT-00074,2026-11-04,Care Plan,West,Referral,Settled,2699
+CHT-00075,2026-11-09,Teleconsultation,East,Partner,Pending,799
+CHT-00076,2026-11-14,Health Screening,South,Front Desk,Refunded,1599
+CHT-00077,2026-10-02,Wellness Package,North,Website,Settled,3699
+CHT-00078,2026-10-07,Lab Package,West,Website,Pending,1299
+CHT-00079,2026-10-12,Care Plan,East,Referral,Refunded,2599
+CHT-00080,2026-10-17,Teleconsultation,East,Partner,Failed,999
+CHT-00081,2026-10-22,Care Plan,South,Front Desk,Settled,2499
+CHT-00082,2026-10-27,Teleconsultation,North,Website,Pending,899
+CHT-00083,2026-11-01,Health Screening,West,Referral,Refunded,1699
+CHT-00084,2026-11-06,Wellness Package,East,Partner,Failed,3499
+CHT-00085,2026-11-11,Lab Package,South,Front Desk,Settled,1399
+CHT-00086,2026-11-16,Care Plan,North,Website,Pending,2699
+CHT-00087,2026-10-04,Teleconsultation,West,Referral,Refunded,799
+CHT-00088,2026-10-09,Health Screening,West,Partner,Settled,1599
+CHT-00089,2026-10-14,Wellness Package,East,Front Desk,Pending,3699
+CHT-00090,2026-10-19,Health Screening,South,Website,Refunded,1499
+CHT-00091,2026-10-24,Wellness Package,North,Website,Failed,3599
+CHT-00092,2026-10-29,Lab Package,West,Referral,Settled,1499
+CHT-00093,2026-11-03,Care Plan,East,Partner,Pending,2499
+CHT-00094,2026-11-08,Teleconsultation,South,Front Desk,Refunded,899
+CHT-00095,2026-11-13,Health Screening,North,Website,Failed,1699
+CHT-00096,2026-10-01,Wellness Package,North,Referral,Settled,3499
+CHT-00097,2026-10-06,Lab Package,West,Partner,Pending,1399
+CHT-00098,2026-10-11,Care Plan,East,Front Desk,Refunded,2699
+CHT-00099,2026-10-16,Lab Package,South,Website,Settled,1299
+CHT-00100,2026-10-21,Care Plan,North,Referral,Pending,2599
+CHT-00101,2026-10-26,Teleconsultation,West,Partner,Refunded,999
+CHT-00102,2026-10-31,Health Screening,East,Front Desk,Failed,1499
+CHT-00103,2026-11-05,Wellness Package,South,Website,Settled,3599
+CHT-00104,2026-11-10,Lab Package,South,Website,Pending,1499
+CHT-00105,2026-11-15,Care Plan,North,Referral,Refunded,2499
+CHT-00106,2026-10-03,Teleconsultation,West,Partner,Failed,899
+CHT-00107,2026-10-08,Health Screening,East,Front Desk,Settled,1699
+CHT-00108,2026-10-13,Teleconsultation,South,Website,Pending,799
+CHT-00109,2026-10-18,Health Screening,North,Referral,Refunded,1599
+CHT-00110,2026-10-23,Wellness Package,West,Partner,Settled,3699
+CHT-00111,2026-10-28,Lab Package,East,Front Desk,Pending,1299
+CHT-00112,2026-11-02,Care Plan,East,Website,Refunded,2599
+CHT-00113,2026-11-07,Teleconsultation,South,Referral,Failed,999
+CHT-00114,2026-11-12,Health Screening,North,Partner,Settled,1499
+CHT-00115,2026-11-17,Wellness Package,West,Front Desk,Pending,3599
+CHT-00116,2026-10-05,Lab Package,East,Website,Refunded,1499
+CHT-00117,2026-10-10,Wellness Package,South,Website,Failed,3499
+CHT-00118,2026-10-15,Lab Package,North,Referral,Settled,1399
+CHT-00119,2026-10-20,Care Plan,West,Partner,Pending,2699
+CHT-00120,2026-10-25,Teleconsultation,West,Front Desk,Refunded,799
+CHT-00121,2026-10-30,Health Screening,East,Website,Settled,1599
+CHT-00122,2026-11-04,Wellness Package,South,Referral,Pending,3699
+CHT-00123,2026-11-09,Lab Package,North,Partner,Refunded,1299
+CHT-00124,2026-11-14,Care Plan,West,Front Desk,Failed,2599
+CHT-00125,2026-10-02,Teleconsultation,East,Website,Settled,999
+CHT-00126,2026-10-07,Care Plan,South,Referral,Pending,2499
+CHT-00127,2026-10-12,Teleconsultation,North,Partner,Refunded,899
+CHT-00128,2026-10-17,Health Screening,North,Front Desk,Failed,1699
+CHT-00129,2026-10-22,Wellness Package,West,Website,Settled,3499
+CHT-00130,2026-10-27,Lab Package,East,Website,Pending,1399
+CHT-00131,2026-11-01,Care Plan,South,Referral,Refunded,2699
+CHT-00132,2026-11-06,Teleconsultation,North,Partner,Settled,799
+CHT-00133,2026-11-11,Health Screening,West,Front Desk,Pending,1599
+CHT-00134,2026-11-16,Wellness Package,East,Website,Refunded,3699
+CHT-00135,2026-10-04,Health Screening,South,Referral,Failed,1499
+CHT-00136,2026-10-09,Wellness Package,South,Partner,Settled,3599
+CHT-00137,2026-10-14,Lab Package,North,Front Desk,Pending,1499
+CHT-00138,2026-10-19,Care Plan,West,Website,Refunded,2499
+CHT-00139,2026-10-24,Teleconsultation,East,Referral,Failed,899
+CHT-00140,2026-10-29,Health Screening,South,Partner,Settled,1699
+CHT-00141,2026-11-03,Wellness Package,North,Front Desk,Pending,3499
+CHT-00142,2026-11-08,Lab Package,West,Website,Refunded,1399
+CHT-00143,2026-11-13,Care Plan,East,Website,Settled,2699
+CHT-00144,2026-10-01,Lab Package,East,Referral,Pending,1299
+CHT-00145,2026-10-06,Care Plan,South,Partner,Refunded,2599
+CHT-00146,2026-10-11,Teleconsultation,North,Front Desk,Failed,999
+CHT-00147,2026-10-16,Health Screening,West,Website,Settled,1499
+CHT-00148,2026-10-21,Wellness Package,East,Referral,Pending,3599
+CHT-00149,2026-10-26,Lab Package,South,Partner,Refunded,1499
+CHT-00150,2026-10-31,Care Plan,North,Front Desk,Failed,2499
+CHT-00151,2026-11-05,Teleconsultation,West,Website,Settled,899
+CHT-00152,2026-11-10,Health Screening,West,Referral,Pending,1699
+CHT-00153,2026-11-15,Teleconsultation,East,Partner,Refunded,799
+CHT-00154,2026-10-03,Health Screening,South,Front Desk,Settled,1599
+CHT-00155,2026-10-08,Wellness Package,North,Website,Pending,3699
+CHT-00156,2026-10-13,Lab Package,West,Website,Refunded,1299
+CHT-00157,2026-10-18,Care Plan,East,Referral,Failed,2599
+CHT-00158,2026-10-23,Teleconsultation,South,Partner,Settled,999
+CHT-00159,2026-10-28,Health Screening,North,Front Desk,Pending,1499
+CHT-00160,2026-11-02,Wellness Package,North,Website,Refunded,3599
